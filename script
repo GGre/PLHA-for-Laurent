@@ -1,0 +1,27 @@
+# Script pour générer des répertoires à préfixe invariable et suffixe numérique incrémenté d'une unité à chaque fois, tous de même niveau
+# (écrit en Python 3)
+
+pre, i, j = PLHA, 25001, 0                                          # Préfixe, incrément, compteur d'exceptions
+
+import os
+
+chdir("/home/bidon/bidon")                                          # Remplacer par le chemin voulu
+
+while i:
+    i -= 1
+    try:
+        if i < 10:
+            name = pre + '0000' + str(i)
+        elif i < 100:
+            name = pre + '000' + str(i)
+        elif i < 1000:
+            name = pre + '00' + str(i)
+        elif i < 10000:
+            name = pre + '0' + str(i)
+        mkdir name
+    except:
+        print('exception levée')
+        j += 1
+        continue
+
+print(i-1-j, ' répertoires créés (', j, ' exceptions levées)')
