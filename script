@@ -1,3 +1,4 @@
+python3
 # Script pour générer des répertoires à préfixe invariable
 # et suffixe numérique incrémenté d'une unité à chaque fois, tous de même niveau.
 # (écrit en Python 3)
