@@ -1,4 +1,5 @@
-# Script pour générer des répertoires à préfixe invariable et suffixe numérique incrémenté d'une unité à chaque fois, tous de même niveau
+# Script pour générer des répertoires à préfixe invariable
+# et suffixe numérique incrémenté d'une unité à chaque fois, tous de même niveau.
 # (écrit en Python 3)
 
 pre, i, j = PLHA, 25001, 0                                          # Préfixe, incrément, compteur d'exceptions
