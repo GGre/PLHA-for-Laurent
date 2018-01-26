@@ -26,4 +26,4 @@ while i:
         j += 1
         continue
 
-print(k-j, ' directories created (', j, ' exception(s) occured)')   # Edition of the final report
+print(k-j, ' directories created (', j, ' exception(s) occured)')   # Final report edition
