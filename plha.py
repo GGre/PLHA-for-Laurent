@@ -3,7 +3,7 @@
 # by unity from 00001 to (here) 25000.
 # Run it with the command : >>>python3 plha.py
 
-pre, i, j, k = PLHA, 25001, 0, 25000                                # Prefix, increment, except count, nbr of waited directories
+pre, i, j, k = PLHA, 25001, 0, 25000                                # Prefix, max-increment, except count, nbr of waited directories
 
 from os import chdir, mkdir
 
