@@ -1,9 +1,9 @@
 # This script creates in a single directory a suite of ##### subdirectories of the following form :
 # {pre}{#####} where {pre} is an invariable prefix and {#####} is a five digits number progressing
 # by unity from 00001 to (here) 25000.
-# This script shall be ran with the command >>>python3 plha.py
+# It shall be ran with the command >>>python3 plha.py
 
-pre, i, j = PLHA, 25001, 0                                          # Prefix, increment, exceptions count
+pre, i, j, k = PLHA, 25001, 0, 25000                                # Prefix, increment, except count, nbr of waited directories
 
 from os import chdir, mkdir
 
@@ -26,4 +26,4 @@ while i:
         j += 1
         continue
 
-print(i-1-j, ' directories created (', j, ' exception(s) occured)')
+print(k-j, ' directories created (', j, ' exception(s) occured)')
