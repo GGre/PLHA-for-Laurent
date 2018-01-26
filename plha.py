@@ -22,7 +22,7 @@ while i:
             name = pre + '0000' + str(i)
         mkdir name
     except Exception as err:
-        print('err')
+        print(err)
         j += 1
         continue
 
