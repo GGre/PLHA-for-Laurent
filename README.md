@@ -5,4 +5,4 @@ plha.py is a script which creates in a single directory a suite of ##### subdire
 by unity from 00001 to (here) 25000.
 This script shall be ran with the command
 
->>>python3 plha.py
+\>>>python3 plha.py
