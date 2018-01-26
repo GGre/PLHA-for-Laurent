@@ -9,7 +9,7 @@ pre, i, j = PLHA, 25001, 0                                          # Prefix, in
 
 from os import chdir, mkdir
 
-chdir("/home/bidon/bidon")                                          # Remplacer par le chemin voulu
+chdir("/home/bidon/bidon")                                          # Change with the wishing path
 
 while i:
     i -= 1
@@ -24,8 +24,8 @@ while i:
             name = pre + '0000' + str(i)
         mkdir name
     except:
-        print('exception levée')
+        print('An exception occurs')
         j += 1
         continue
 
-print(i-1-j, ' répertoires créés (', j, ' exception(s) levée(s))')
+print(i-1-j, ' directories created (', j, ' exception(s) occured)')
