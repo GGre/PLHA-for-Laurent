@@ -26,4 +26,4 @@ while i:
         j += 1
         continue
 
-print(i-1-j, ' répertoires créés (', j, ' exceptions levées)')
+print(i-1-j, ' répertoires créés (', j, ' exception(s) levée(s))')
