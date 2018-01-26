@@ -1,4 +1,4 @@
-# This script creates in a single directory a suite of ##### subdirectories of the following form :
+# This script creates in a single directory a a same level suite suite of ##### subdirectories of the following form :
 # pre##### where pre is an invariable prefix and ##### is a five digits number progressing
 # by unity from 00001 to (here) 25000.
 # To run with the command : >>>python3 plha.py
