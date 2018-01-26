@@ -1,4 +1,4 @@
-# This script creates in a single directory a suite of subdirectories of the following form :
+# This script creates in a single directory a suite of ##### subdirectories of the following form :
 # {pre}{#####} where {pre} is an invariable prefix and {#####} is a five digits number progressing
 # by unity from 00001 to (here) 25000.
 # This script shall be ran with the command >>>python3 plha.py
@@ -22,7 +22,7 @@ while i:
             name = pre + '0000' + str(i)
         mkdir name
     except:
-        print('An exception occurs')
+        print('Exception occured')
         j += 1
         continue
 
