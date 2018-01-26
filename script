@@ -12,14 +12,14 @@ chdir("/home/bidon/bidon")                                          # Remplacer 
 while i:
     i -= 1
     try:
-        if i < 10:
-            name = pre + '0000' + str(i)
-        elif i < 100:
-            name = pre + '000' + str(i)
+        if i < 10000:
+            name = pre + '0' + str(i)
         elif i < 1000:
             name = pre + '00' + str(i)
-        elif i < 10000:
-            name = pre + '0' + str(i)
+        elif i < 100:
+            name = pre + '000' + str(i)
+        elif i < 10:
+            name = pre + '0000' + str(i)
         mkdir name
     except:
         print('exception levée')
