@@ -1,9 +1,7 @@
-# This script generate in a single directory a suite of subdirectories of the following form :
+# This script creates in a single directory a suite of subdirectories of the following form :
 # {pre}{#####} where {pre} is an invariable prefix and {#####} is a five digits number progressing
 # by unity from 00001 to (here) 25000.
 # This script shall be ran with the command >>>python3 plha.py
-
-python3
 
 pre, i, j = PLHA, 25001, 0                                          # Prefix, increment, exceptions count
 
