@@ -21,8 +21,8 @@ while i:
         elif i < 10:
             name = pre + '0000' + str(i)
         mkdir name
-    except:
-        print('Exception occured')
+    except Exception as err:
+        print('err')
         j += 1
         continue
 
