@@ -3,6 +3,7 @@
 inf = input("Give the lower number of the numbered images")
 sup = input("Give the upper number of the numebred images")
 
-i = sup
+i = int(sup)
 
 while i:
+    move 
