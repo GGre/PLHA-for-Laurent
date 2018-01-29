@@ -4,7 +4,7 @@
 # Run it with the command : >>>python3 plha.py
 
 i, j = 25000, 25000
-pre = "/home/ladmin/Téléchargements/PLHA"
+#pre = "/home/ladmin/Téléchargements/PLHA"    # Change the path and cancel the quote 
 
 import os
 
