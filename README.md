@@ -7,3 +7,5 @@ by unity from 00001 to (here) 25000.
 This script shall be ran with the command :
 
 \>>>python3 plha.py
+
+(plhaWin.py on Windows OS)
