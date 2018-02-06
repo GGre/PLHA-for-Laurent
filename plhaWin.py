@@ -1,4 +1,4 @@
-# -*-coding:Latin-1 -*
+# -*-coding:utf-8 -*
 
 # This script creates in a single directory (here : /home/ladmin/Téléchargements/) a same level suite of ##### subdirectories
 # of the following form : pref##### where pref is an invariable prefix and ##### is a five digits number progressing by unity
