@@ -6,12 +6,12 @@
 # Run it with the command : >>>python3 plha.py
 
 i, j = 10000, 10000
-way = "/home/ladmin/Téléchargements/PLHA"     # Change the path to the wished one
+way = "path\to\the\right\superdirectory\PLHA" # Change the path to the wished one
                                               #(see below N.B. 1 & 2)
                                               # N.B. 1: PLHA will be the prefix pref
                                               # N.B. 2: Directories PLHA##### will
                                               # be created here in
-                                              # /home/ladmin/Téléchargements/
+                                              # path\to\the\right\superdirectory\
 
 import os
 
